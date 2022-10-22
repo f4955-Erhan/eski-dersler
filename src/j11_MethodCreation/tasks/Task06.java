@@ -38,6 +38,7 @@ public class Task06 {
 
             default:
                 System.out.println("hatalı işlem!!!");
+
         }
     }
     private static void üçgenAlanBul(int taban, int yükseklik) {

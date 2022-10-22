@@ -4,22 +4,13 @@ import java.util.Scanner;
 
 public class denem {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+        for (int i=9; i<10; i++){
 
-        System.out.println("Lütfen e-mail adresinizi giriniz : ");
-        String email = scan.nextLine().trim();
+            System.out.print(i);
 
-        kaliteKontrol(email);
-        System.out.println(kaliteKontrol(email));
 
-    }
-    private static boolean kaliteKontrol(String email) {
 
-        boolean kontrol = (email.contains("@") && email.indexOf("@") == email.lastIndexOf("@"))&&
-             (email.contains(".") && email.indexOf(".") == email.lastIndexOf("."))&&
-                 (email.indexOf("@") > 0);
-
-        return kontrol;
+        }
 
 
     }
