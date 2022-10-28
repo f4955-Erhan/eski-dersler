@@ -22,7 +22,6 @@ public class _01_arraylist1 {
 
     public static void main(String[] args) {
         System.out.println("portakal listimizde kaç adet = "+getCount(meyveler, "portakal"));
-
     }
     public static int getCount(List<String> meyveler, String portakal) {
         int adet = 0;

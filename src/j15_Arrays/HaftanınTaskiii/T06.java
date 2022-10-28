@@ -1,4 +1,4 @@
-package HaftanınTaskiii;
+package j15_Arrays.HaftanınTaskiii;
 
 public class T06 {
     public static void main(String[] args) {

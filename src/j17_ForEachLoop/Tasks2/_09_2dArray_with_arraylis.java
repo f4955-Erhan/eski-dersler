@@ -21,26 +21,14 @@ public class _09_2dArray_with_arraylis {
      */
 
     public static void main(String[] args) {
-
         int sayi[][]={{1, 2, 3},{4, 5, 6},{7, 8, 9}};
 
-
         ArrayList<Integer>sayilar=new ArrayList<>();
-
-
         for (int a[]: sayi) {
             for (int b : a) {
-
                 sayilar.add(b);
-
             }
-
         }
         System.out.println(sayilar);
-
-
-
-
-
     }
 }

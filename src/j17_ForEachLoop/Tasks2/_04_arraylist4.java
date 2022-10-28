@@ -24,17 +24,26 @@ public class _04_arraylist4 {
 
     public static void main(String[] args) {
 
-        List<String>renkler=new ArrayList<>(List.of("yellow" , "red" , "blue" , "red" , "blue"));
-        String s1="blue";
-        String s2="yellow";
+        List<String> renkler = new ArrayList<>(List.of("yellow", "red", "blue", "red", "blue"));
+        String s1 = "blue";
+        String s2 = "yellow";
 
-        changeInArraylist(renkler,s1,s2);
+        changeInArraylist(renkler, s1, s2);
         System.out.println(changeInArraylist(renkler, s1, s2));
     }
+
     private static List<String> changeInArraylist(List<String> renkler, String s1, String s2) {
-        for (String a:renkler) {
-               Collections.replaceAll(renkler,s1,s2);
+        List<String> yeniRenkler = new ArrayList<>();
+
+        for (String a : renkler) {
+
+            if (a.equalsIgnoreCase(s1)) {
+                a = s2;
+                yeniRenkler.add(a);
+            }else yeniRenkler.add(a);
+
+            //  Collections.replaceAll(renkler,s1,s2);
         }
-        return renkler;
+        return yeniRenkler;
     }
 }

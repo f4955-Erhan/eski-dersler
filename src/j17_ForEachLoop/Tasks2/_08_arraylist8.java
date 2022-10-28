@@ -18,22 +18,22 @@ public class _08_arraylist8 {
      */
 
     public static void main(String[] args) {
-        List<Integer>sayilar=new ArrayList<>(List.of(1,2,3,4,5));
+        List<Integer> sayilar = new ArrayList<>(List.of(1, 2, 3, 4, 5));
 
         secondMax(sayilar);
         System.out.println(secondMax(sayilar));
     }
 
     private static List<Integer> secondMax(List<Integer> sayilar) {
-List<Integer>maxİki=new ArrayList<>();
+        List<Integer> maxİki = new ArrayList<>();
 
         Collections.sort(sayilar);
 
-      maxİki.add( sayilar.get(sayilar.size()-2)) ;
+        maxİki.add(sayilar.get(sayilar.size() - 2));
 
-           return maxİki;
-        }
-
+        return maxİki;
     }
+
+}
 
 

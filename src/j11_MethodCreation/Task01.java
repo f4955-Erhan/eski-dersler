@@ -14,8 +14,9 @@ public class Task01 {
 
         eşitlikKontrolEt(sayi1, sayi2);
 
-
     }
+
+
 
     private static void eşitlikKontrolEt(int a, int b) {
 

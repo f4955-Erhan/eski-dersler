@@ -1,6 +1,9 @@
 package j15_Arrays.odev;
 
+import javax.swing.*;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class _21_Array_reverse {
 
@@ -22,7 +25,6 @@ public class _21_Array_reverse {
             System.out.print(yeniSay[i]);
             
         }
-
     }
 }
 

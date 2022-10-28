@@ -1,4 +1,4 @@
-package HaftanınTaskiii;
+package j15_Arrays.HaftanınTaskiii;
 
 import java.util.Scanner;
 

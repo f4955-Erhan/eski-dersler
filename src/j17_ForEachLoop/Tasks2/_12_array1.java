@@ -25,11 +25,9 @@ public class _12_array1 {
         boolean flag = false;
         for (int i : arr) {
             for (int j : arr) {
-
                 if (i == j) {
                     eşit++;
                 }
-
             }
             flag = eşit > arr.length ? true : false;
         }

@@ -6,13 +6,13 @@ public class C02_MethodCreation {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("1. not :");
+        System.out.println("1. not : ");
         double not1 = scan.nextDouble();
 
-        System.out.println("2. not :");
+        System.out.println("2. not : ");
         double not2 = scan.nextDouble();
 
-        System.out.println("3. not :");
+        System.out.println("3. not : ");
         double not3 = scan.nextDouble();
 
 
@@ -23,6 +23,7 @@ public class C02_MethodCreation {
     private static double ortalamaAl(double a,double b,double c) {
 
         return (a+b+c)/3;
+        
     }
 
 
