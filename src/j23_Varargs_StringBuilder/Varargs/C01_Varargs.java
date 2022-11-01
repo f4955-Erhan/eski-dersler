@@ -21,43 +21,62 @@ public class C01_Varargs {
 
         // Task -> verilen iki sayı toplamını print eden METHOD create ediniz
 
-        int sayi1=24;
-        int sayi2=27;
-        int sayi3=46;
-        int sayi4=10;
-        topla(sayi1,sayi2);
-        topla(sayi3,sayi2);
-        topla(sayi1,sayi4);
-        topla(sayi1,sayi4,sayi3);
+        int sayi1 = 24;
+        int sayi2 = 27;
+        int sayi3 = 46;
+        int sayi4 = 10;
+        topla(sayi1, sayi2);
+        topla(sayi3, sayi2);
+        topla(sayi1, sayi4);
+        topla(sayi1, sayi4, sayi3);
 
         System.out.println("   ***  varags method   ***   ");
 
-        toplaVarargs(sayi1,23,sayi2,sayi3);// 4 p
-        toplaVarargs(44,23,62,sayi1,sayi3);// 5 p
-        toplaVarargs(sayi2,sayi3);// 2 p
+        toplaVarargs(sayi1, 23, sayi2, sayi3);// 4 p
+        toplaVarargs(44, 23, 62, sayi1, sayi3);// 5 p
+        toplaVarargs(sayi2, sayi3);// 2 p
+
+//task= verilen Stringlerin en uzun karaktere sahip olanı print eden code create ediniz.
 
 
+        String str = "erhan yıldız";
+        String str1 = "erhan yıldız bende";
+        String str2 = "erhan yıldız nerede geldik";
 
-
+        enUzun(str, str1, str2);
 
 
 // Task -> verilen üç sayı toplamını print eden METHOD create ediniz
     }//main sonu
 
-    public static void topla(int a, int b){//iki p'li overload meth
-        System.out.println("sayılar toplamı :" +(a+b));
+    private static void enUzun(String... str) {
 
-    }
-    public static void topla(int a, int b,int c){//iki p'li overload meth
-        System.out.println("sayılar toplamı :" +(a+b+c));
+        String uzun = "";
+        for (String s : str) {
 
-    }
-    public static  void toplaVarargs(int ... a){//varargs method
-        int toplam=0;
-        for (int w:a){//varargs parametre arr içinde tanımlandıgı için parametreler loop aksiyon alır
-            toplam+=w;
+            if (s.length() > uzun.length()) {
+                uzun = s;
+            }
+
         }
-        System.out.println("sayıların toplamı : "+(toplam));
+    }
+
+    public static void topla(int a, int b) {//iki p'li overload meth
+        System.out.println("sayılar toplamı :" + (a + b));
+
+    }
+
+    public static void topla(int a, int b, int c) {//iki p'li overload meth
+        System.out.println("sayılar toplamı :" + (a + b + c));
+
+    }
+
+    public static void toplaVarargs(int... a) {//varargs method
+        int toplam = 0;
+        for (int w : a) {//varargs parametre arr içinde tanımlandıgı için parametreler loop aksiyon alır
+            toplam += w;
+        }
+        System.out.println("sayıların toplamı : " + (toplam));
     }
 
 }

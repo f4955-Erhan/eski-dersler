@@ -6,16 +6,11 @@ public class Runner {
                        alamayacagı dersleri print eden code create ediniz
      */
     public static void main(String[] args) {
-        Lesson ders1= new Lesson("matematik");
-        Lesson ders2= new Lesson("sosyoloji");
-        Lesson ders3= new Lesson("ingilizce");
-
-        Student öğrenci= new Student("erhan",10);
-
 
 
 
     }
+
 
 
 }

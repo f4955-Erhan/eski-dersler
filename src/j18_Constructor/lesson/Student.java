@@ -8,10 +8,16 @@ public class Student {
     int maxCredit;
     String dersleri;
 
+    Student öğrenci= new Student("erhan",10);
 
-    public Student(String studentName, int maxCredit){
-
+    public Student(String studentName, int maxCredit) {
+        this.studentName = studentName;
+        this.maxCredit = maxCredit;
 
 
     }
+
+
+
 }
+
