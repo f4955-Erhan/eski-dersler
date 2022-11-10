@@ -3,7 +3,7 @@ package Home_Work.Project03;
 public class Urun {
     double kraker= 2.5;
     double cips =2.2;
-    double cocaCoal =2.2;
+    double cocaCola =2.2;
     double fanta =2.0;
     double su =1.0;
     double cay =1.5;
@@ -17,7 +17,7 @@ public class Urun {
     public Urun(double kraker, double cips, double cocaCoal, double fanta, double su, double cay, double filtreKahve, int productNum, double price) {
         this.kraker = kraker;
         this.cips = cips;
-        this.cocaCoal = cocaCoal;
+        this.cocaCola = cocaCoal;
         this.fanta = fanta;
         this.su = su;
         this.cay = cay;
@@ -29,16 +29,16 @@ public class Urun {
 
     @Override
     public String toString() {
-        return "Urun Listesi = {" +
-                "\nkraker(1)=" + kraker +
-                "\n cips(2)=" + cips +
-                "\n cocaCoal(3)=" + cocaCoal +
-                "\n fanta(4)=" + fanta +
-                "\n su(5)=" + su +
-                "\n cay(6)=" + cay +
-                "\n filtreKahve(7)=" + filtreKahve +
-                "\n productNum(8)=" + productNum +
-                "\n price(9)=" + price +
-                '}';
+        return "    Urun Listesi    " +
+                "\n (1)kraker-------->" + kraker +" ₺" +
+                "\n (2)cips---------->" + cips +" ₺"+
+                "\n (3)cocaCoal------>" + cocaCola+" ₺" +
+                "\n (4)fanta--------->" + fanta +" ₺"+
+                "\n (5)su------------>" + su +" ₺"+
+                "\n (6)cay----------->" + cay +" ₺"+
+                "\n (7)filtreKahve--->" + filtreKahve +" ₺"+
+                "\n (8)paraEkle" +
+                "\n (0)exıt"
+                ;
     }
 }

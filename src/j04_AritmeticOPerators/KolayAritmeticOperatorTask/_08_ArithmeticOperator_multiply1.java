@@ -10,7 +10,9 @@ public class _08_ArithmeticOperator_multiply1 {
             Bu üç double'ı birbiriyle çarpın ve cevabı  sonuca eşitleyin.
             Sonucu yazdırın.  */
 
-
-
+double sayi1=12.3;
+double sayi2=12.2;
+int sayi3= (int)(sayi1+sayi2);
+        System.out.println("sayi3 = " + sayi3);
     }
 }

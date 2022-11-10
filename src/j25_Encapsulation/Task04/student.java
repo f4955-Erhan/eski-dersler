@@ -23,6 +23,8 @@ public class student {
 
     }
 
+
+
     public void setSınıf(String sınıf) {
         this.sınıf = sınıf;
     }

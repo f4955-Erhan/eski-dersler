@@ -25,7 +25,7 @@ public class Task06 {
         int s= scan.nextInt();
 
         System.out.println(s+"sayısının 1 ler basamağı="+(s%10));
-        System.out.println(s+"sayısının 10 lar basamağı="+((s%100)-(s%10))/10);
+        System.out.println(s+"sayısının 10 lar basamağı="+(s % 100) / 10);
         System.out.println(s+"sayısının 100 ler basamağı="+(s/100));
 
 
