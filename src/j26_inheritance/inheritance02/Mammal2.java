@@ -1,14 +1,14 @@
 package j26_inheritance.inheritance02;
 
-public class Mammal extends Hayvancık { // Hayvancık Parent classının Child Class ı
+public class Mammal2 extends Hayvancık2 { // Hayvancık Parent classının Child Class ı
 
-    public Mammal(){
-        this('Y');
+    public Mammal2(){
+        this('Y');//bu classta parametreli constructor call edildi
         System.out.println("ağam bu mammal p.siz cons ");
     }
 
-    public Mammal(char c){
-        super(17);
+    public Mammal2(char c){
+        super(17);//parent hayvancık class call edildi
         System.out.println("ağam bu mammal p.li cons ");
 
     }
