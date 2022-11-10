@@ -22,7 +22,7 @@ public class Task_3 {
         String yeniIsim1 = isim1.charAt(0)+ isim1.substring(1).replaceAll("\\w", "*");
         String yeniIsim2 = isim2.charAt(0) + isim2.substring(1).replaceAll("\\w", "*");
         String yeniSoyIsım = soyIsim.charAt(0) + soyIsim.substring(1).replaceAll("\\w", "*");
-        String yeniKArtNo = kartno.substring(1, 12).replaceAll("\\d", "*") + kartno.substring(12);
+        String yeniKArtNo = kartno.substring(0, 12).replaceAll("\\d", "*") + kartno.substring(12);
 
 
         if (isim2.length() >= 2 && isim2.equals("0") != true  ){
