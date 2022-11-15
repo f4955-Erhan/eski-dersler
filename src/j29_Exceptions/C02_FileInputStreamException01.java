@@ -28,12 +28,13 @@ public class C02_FileInputStreamException01 {
     public static void main(String[] args) throws IOException {//Hz.Nuh IO işlemleri en parent class exception
         // public static void main(String[] args) throws FileNotFoundException { //read() method import öncesi child exception
 
-        FileInputStream fis = new FileInputStream("/Users/yeni/IdeaProjects/javaLearn/src/j29_Exceptions/ebikGabı");
+        FileInputStream fis = new FileInputStream("/Users/meleksahin/IdeaProjects/javaLearn/src/j29_Exceptions/ebikGabık");
         //ilgili dosyaya ulaşmak için fis obj tanımlandı parametre olarak ulaşılacak dosya yolu(path) girildi
         //FileNotFoundException-> adres yanlışşsa controlu
 
         /*
-        Eğer bir method'da Checked (CTE riski olan excp.) exception varsa method signature(mnethod name'den sonraki bölüm) hata uyarısı altı kırmızı çizgi verir
+        Eğer bir method'da Checked (CTE riski olan excp.) exception varsa method signature(mnethod name'den sonraki bölüm)
+        hata uyarısı altı kırmızı çizgi verir
         komutun derlenmesine izin vermez ve kod üzerine gelidiğimde Add...  exception handle etme tavsiye eder otamatih throws excp eklenir.
         Bu şekilde methodu call eden komutlat try-catch alınması garanti edilmiş olur.
          */

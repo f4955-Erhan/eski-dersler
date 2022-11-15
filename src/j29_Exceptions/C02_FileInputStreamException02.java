@@ -8,8 +8,8 @@ public class C02_FileInputStreamException02 {
     public static void main(String[] args) {
         try {
             FileInputStream fis = new FileInputStream("/Users/yeni/IdeaProjects/javaLearn/src/j29_Exceptions/ebikGabık");
-            int k;
 
+            int k;
             try {
                 while ((k = fis.read()) != -1) {
                     System.out.print((char) k);

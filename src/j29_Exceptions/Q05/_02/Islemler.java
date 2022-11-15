@@ -1,10 +1,14 @@
 package j29_Exceptions.Q05._02;
 
 
-import static j28_Exception.Q05._02.Account.accountList;
-import static j28_Exception.Q05._02.Account.scan;
+import java.util.Scanner;
+
+import static j29_Exceptions.Q05._02.Account.accountList;
+
 
 public class Islemler {
+
+    Scanner scan= new Scanner(System.in);
     Islemler(){
 
         while (true)

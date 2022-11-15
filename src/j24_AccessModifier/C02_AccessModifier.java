@@ -12,5 +12,6 @@ public class C02_AccessModifier {
         System.out.println("obj2.publicYas = " + obj2.publicYas);//48
         System.out.println("obj2.protectedYas = " + obj2.protectedYas);//40
         //obj2.privateMethod();//private method call edilemez
+
     }
 }
