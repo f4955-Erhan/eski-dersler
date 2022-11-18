@@ -8,7 +8,7 @@ public class Student {
     int maxCredit;
     String dersleri;
 
-    Student öğrenci= new Student("erhan",10);
+    Lesson öğrenci= new Lesson("erhan",10);
 
     public Student(String studentName, int maxCredit) {
         this.studentName = studentName;

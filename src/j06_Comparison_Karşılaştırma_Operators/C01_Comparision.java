@@ -25,7 +25,7 @@ public class C01_Comparision {
         System.out.println("a küçük eşit mi b ye ="+(a<=b));//true
         System.out.println("a büyük eşit mi b ye ="+(a>=b));//false
 
-        String name = "erhan";
+        String name  = "erhan";
         String name1 = "erhan";
         System.out.println(name==name1);//true
 

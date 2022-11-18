@@ -9,6 +9,10 @@ public class Task12 {
          Örn. Ali Mert Yılmaz -> A.M.Y.  şeklinde print eden code create ediniz.
         */
 
+        String name1="Ali";
+        String name2="Mert" ;
+        String name3="Yılmaz";
+
 /*
         Scanner scan = new Scanner(System.in);
         System.out.println("lütfen 3 kelime bir isim giriniz : ");
