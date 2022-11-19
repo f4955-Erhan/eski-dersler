@@ -10,9 +10,11 @@ public class Ogretmen extends Kisi {
     }
 
 
+
+
     public Ogretmen(String adSoyad, String kimlikNo, int yas, String bolum, String sicilNo) {
         super(adSoyad, kimlikNo, yas);
-        this.bolum = bolum;
+        setBolum(bolum);
         this.sicilNo = sicilNo;
     }
 
@@ -32,13 +34,16 @@ public class Ogretmen extends Kisi {
         this.sicilNo = sicilNo;
     }
 
+
+
     @Override
     public String toString() {
-        return "Ogretmen{" +
-                "bolum='" + bolum + '\'' +
-                ", sicilNo='" + sicilNo + '\'' +
-                "} " + super.toString();
+        return
+                "bolum='" + bolum.toUpperCase() + '\'' +
+                ", sicilNo='" +sicilNo + '\'' + super.toString();
     }
+
+
 // @Override
    // public String toString() {
    //     return "Ogretmen{" +

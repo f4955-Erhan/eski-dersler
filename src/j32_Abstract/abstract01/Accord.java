@@ -1,24 +1,25 @@
-package j32_Abstract.abstract01;
+package j32_Abstract.Abstract01;
 
 public class Accord extends Honda{
 
+
     @Override
-    public void motor() {//impelement edilen abs method
-        System.out.println("Agam 2.0 turbo ateşle hız felakettir:( ");
+    public void motor() { // zorunlu ımplement method
+        System.out.println("1.8 motor");
     }
 
     @Override
-    void koltuk() {//impelement edilen abs method
-        System.out.println("Agam deri koltuk ter yapar pişik olma :( ");
+    void koltuk() {// zorunlu ımplement method
+        System.out.println("5 kişilik");
     }
 
     @Override
-    void sunrooff() {//override edilen concerete method
-        System.out.println("agam cuğara yakınca sunroof acmayı unutma");
+    void kapı() {// zorunlu ımplement method
+        System.out.println("5 kapılı");
     }
 
     @Override
-    void kapı() {//impelement edilen abs method
-        System.out.println("agam vakumlu kapı çarpılmayasan :) ");
+    void sunroof() {// concrete zorunlu olmayan method istersek yazarız istemezsek yazmayız
+        System.out.println("iyisen ağa");
     }
 }

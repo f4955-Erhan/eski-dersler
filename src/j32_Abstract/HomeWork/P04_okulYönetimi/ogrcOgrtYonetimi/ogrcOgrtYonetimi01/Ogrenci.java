@@ -20,6 +20,7 @@ public class Ogrenci extends Kisi {
         this.sınıf = sınıf;
     }
 
+
     public String getOgrcNo() {
         return ogrcNo;
     }
@@ -34,10 +35,10 @@ public class Ogrenci extends Kisi {
 
     @Override
     public String toString() {
-        return "Ogrenci{" +
+        return
                 "ogrcNo='" + ogrcNo + '\'' +
-                ", sınıf='" + sınıf + '\'' +
-                "} " + super.toString();
+                ", sınıf='" + sınıf + '\''
+                 + super.toString();
     }
 
 // @Override

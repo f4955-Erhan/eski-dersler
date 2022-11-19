@@ -1,9 +1,9 @@
-package j35_Collection;
+package j35_Collection.LinkedList;
 
 import java.util.Arrays;
 import java.util.LinkedList;
 
-public class C03_LinkedList {
+public class C01_LinkedList {
     public static void main(String[] args) {
 
         LinkedList<String> ll1 = new LinkedList<>(Arrays.asList("javaCAN", "Ebubekir", "Gülsüm", "Ebubekir", "Adem", "İlker", "javaCAN", "Merve"));
@@ -17,7 +17,7 @@ public class C03_LinkedList {
 
         System.out.println("ll1.remove(\"Merve\") = " + ll1.remove("Merve"));//true
         System.out.println("ll1.remove(\"javaTAR\") = " + ll1.remove("javaTAR"));//false->olmayan node false olan node true return eder
-        System.out.println("ll1 = " + ll1);//[Ebubekir, Gülsüm, Ebubekir, İlker, javaCAN]
+        // System.out.println("ll1 = " + ll1);//[Ebubekir, Gülsüm, Ebubekir, İlker, javaCAN]
 
         System.out.println("ll1.removeFirstOccurrence(\"Ebubekir\") = " + ll1.removeFirstOccurrence("Ebubekir"));//true
         System.out.println("ll1 = " + ll1);//[Gülsüm, Ebubekir, İlker, javaCAN]

@@ -1,14 +1,16 @@
-package j32_Abstract.abstract01;
+package j32_Abstract.Abstract01;
 
 public class Runner {
     public static void main(String[] args) {
-        Civic cvc = new Civic();
-        cvc.sunrooff();
-        cvc.vites();
-        cvc.lastikEbat();
-        cvc.motor();
+
+Civic cvc = new Civic();
+
+        cvc.sunroof();
+        System.out.println("cvc.vites() = " + cvc.vites());
         cvc.kapı();
         cvc.koltuk();
+        cvc.motor();
+
 
     }
 }

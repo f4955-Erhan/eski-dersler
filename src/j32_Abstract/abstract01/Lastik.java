@@ -1,13 +1,14 @@
-package j32_Abstract.abstract01;
+package j32_Abstract.Abstract01;
 
-public abstract class  Lastik extends Honda{
+public abstract class Lastik extends Honda {
 
-
-
-    public  abstract  void lastikEbat();//abs method
+    public abstract void lastikEbat();//abs method
 
 
-    public void kısLastik(){//concerete method
-        System.out.println("agam pis cezası var ihmal etme :)");
+    public void kışLastiği(){// concrete method
+
     }
+
+
+
 }

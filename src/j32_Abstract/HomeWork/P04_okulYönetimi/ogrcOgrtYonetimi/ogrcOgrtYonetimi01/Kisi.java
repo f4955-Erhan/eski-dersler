@@ -1,10 +1,11 @@
 package j32_Abstract.HomeWork.P04_okulYönetimi.ogrcOgrtYonetimi.ogrcOgrtYonetimi01;
 
-public class Kisi {
+public  class Kisi {
 
     private String adSoyad;
     private String kimlikNo;
     private int yas;
+
 
     public Kisi() {
 
@@ -47,13 +48,12 @@ public class Kisi {
 
     @Override
     public String toString() {
-        return "{" +
+        return
                 "adSoyad='" + adSoyad + '\'' +
                 ", kimlikNo='" + kimlikNo + '\'' +
-                ", yas=" + yas +
-                '}';
+                ", yas=" + yas
+                ;
     }
-
 }
 
 

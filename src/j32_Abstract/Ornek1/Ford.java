@@ -19,4 +19,16 @@ public class Ford extends BinekOto {
         System.out.println(super.getUretimYili());
         return super.getUretimYili();
     }
+
+    @Override
+    public String getVitesAded() {
+        System.out.println(super.getVitesAded());
+
+        return super.getVitesAded();
+    }
+
+    @Override
+    public int getVitesAdedi(int vitesAdedi) {
+        return super.getVitesAdedi(vitesAdedi);
+    }
 }
