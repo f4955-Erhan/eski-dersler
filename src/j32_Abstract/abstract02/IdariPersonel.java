@@ -1,6 +1,8 @@
-package j32_Abstract.abstract02;
+package j32_Abstract.Abstract02;
 
-public class IdariPersonel extends Personel{
+import j32_Abstract.Abstract02.Personel;
+
+public class IdariPersonel extends Personel {
     @Override//mecbur implemen edilemli
     public void maasHesapla() {//Personel parent class'dan override abs meth.
         System.out.println("Agam frapan idarecimize saatine $120 gayme verilir :)");

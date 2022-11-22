@@ -1,4 +1,4 @@
-package j32_Abstract.abstract02;
+package j32_Abstract.Abstract02;
 
 public abstract class Personel {
     String name ="Nur Hanım";
