@@ -53,6 +53,7 @@ public class C01_HAshSet {
 
         // set add() eleman ekleme
         hs1.add("ziya");
+
         System.out.println("hs1 = " + hs1);
         hs1.add("şeref");
         System.out.println("hs1 = " + hs1);

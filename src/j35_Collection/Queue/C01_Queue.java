@@ -18,11 +18,13 @@ public class C01_Queue {
          */
 
         Queue<String> q1 = new LinkedList<>(Arrays.asList("erhan","kemal","ziya","mehmet","ali"));
+
         System.out.println("q1 = " + q1);
         q1.add("kemal");
         System.out.println("q1 = " + q1);
 
         Queue<String> q2 = new PriorityQueue<>(Arrays.asList("erhan","kemal","ziya","mehmet","ali"));
+        System.out.println("q2.remove() = " + q2.remove());
         System.out.println("q2 = " + q2);
         q2.add("ramazan");
         System.out.println("q2 = " + q2);
